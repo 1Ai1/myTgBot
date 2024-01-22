@@ -16,7 +16,7 @@ except Exception as e:
     print(e)
 
 mydb = client["main"]
-mycol = mydb["users"]
+mycol = mydb["user"]
 
 min = 5
 loo = 30
