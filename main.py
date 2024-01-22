@@ -3,9 +3,9 @@ from datetime import date
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-bot = telebot.TeleBot('6208096452:AAGj5-rPFgJx2xE19ZG99J1ABdCFJchpjKA')
+bot = telebot.TeleBot('') #Telebot api
 
-uri = "mongodb+srv://aiekeu:wf0WgIGk9VTVZido@cluster0.9vrxv0m.mongodb.net/?retryWrites=true&w=majority"
+uri = ""#Mongodb src
 
 client = MongoClient(uri, server_api=ServerApi('1'))
 
